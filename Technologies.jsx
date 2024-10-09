@@ -14,7 +14,24 @@ const Technologies = () => {
       <RiReactjsLine className="text-5xl text-cyan-400"/>
         </div>
 
-      
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+      <TbBrandNextjs className="text-5xl "/>
+        </div>
+
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+      <SiMongodb className="text-5xl text-green-500"/>
+        </div>
+
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+      <DiRedis className="text-5xl text-red-700"/>
+        </div>
+
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+      <FaNodeJs className="text-5xl text-green-500"/>
+        </div>
+
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+      <BiLogoPostgresql className="text-5xl text-sky-700"/>
         </div>
       </div>
     </div>
