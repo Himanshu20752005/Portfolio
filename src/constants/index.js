@@ -3,74 +3,60 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate full stack developer skilled in creating efficient, scalable, and user-friendly applications. My journey in web development has involved a strong focus on front-end technologies like React, along with an increasing interest in backend development and machine learning. I strive to leverage my skills to build innovative solutions that provide value to users and contribute to technological advancements.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an artificial intelligence engineer currently pursuing AI Engineering at RBU with a solid foundation in full stack development. My professional journey has been shaped by my interests in React, machine learning, and backend technologies. With experience in CSS, JavaScript, and React, I’ve contributed to projects that merge creativity and functionality, such as my portfolio and watch website. I enjoy tackling complex challenges, learning new technologies, and contributing to open-source projects. Outside of coding, I explore emerging tech trends, engage in competitive programming, and work on innovative web development projects.`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "2024 - Present",
+    role: "Artificial Intelligence Engineer",
+    company: "RBU",
+    description: `Engaging in AI Engineering studies, with a focus on web and machine learning projects, including a recent mask detection system and various web development projects utilizing CSS, JavaScript, and React.`,
+    technologies: ["CSS", "JavaScript", "React", "Machine Learning"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "2024",
+    role: "Software Intern",
+    company: "Exploration Solution",
+    description: `Contributed to the Calendar-plugin project, learning and implementing JavaScript and React functionalities. Collaborated closely with mentors and gained valuable insights into project development and best practices.`,
+    technologies: ["JavaScript", "React", "CSS"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Watch Website",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An e-commerce website for watches with features like product listing, add-to-cart, and responsive navigation.",
+    technologies: ["HTML", "CSS", "React", "JavaScript"],
   },
   {
     title: "Portfolio Website",
-    image: project3,
+    image: project2,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+      "A personal portfolio website deployed on Vercel, showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Mask Detection System",
+    image: project3,
+    description:
+      "A machine learning model created to detect masks on faces, developed as a team project with a focus on accuracy and usability.",
+    technologies: ["Python", "TensorFlow", "OpenCV"],
+  },
+  {
+    title: "Book Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A web platform featuring book details, reviews, and purchase options, developed with React and styled for a smooth user experience.",
+    technologies: ["HTML", "CSS", "React"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Ramdeobaba college of Engineering and management RBU , Boys hostel - A-305 ,Nagpur Maharashtra , India",
+  phoneNo: "+91 12345 6789",
+  email: "himanshu.it09@gmail.com",
 };
