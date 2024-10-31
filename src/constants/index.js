@@ -10,7 +10,7 @@ export const ABOUT_TEXT = `I am an artificial intelligence engineer currently pu
 export const EXPERIENCES = [
   {
     year: "2024 - Present",
-    role: "Artificial Intelligence Engineer",
+    role: "Artificial Intelligence and Machine Learning Engineer",
     company: "RBU",
     description: `Engaging in AI Engineering studies, with a focus on web and machine learning projects, including a recent mask detection system and various web development projects utilizing CSS, JavaScript, and React.`,
     technologies: ["CSS", "JavaScript", "React", "Machine Learning"],
